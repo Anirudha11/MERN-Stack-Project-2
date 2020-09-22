@@ -1,0 +1,1 @@
+mongodb+srv://dev_anirudha:Wyush301435@cluster0.bi6sn.mongodb.net/db_MERN?retryWrites=true&w=majority
