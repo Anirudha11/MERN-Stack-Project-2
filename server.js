@@ -1,6 +1,6 @@
 const express = require('express');
 const connectDB = require('./config/db');
-const { json } = require('express');
+// const { json } = require('express');
 
 const app = express();
 
@@ -8,7 +8,7 @@ const app = express();
 connectDB();
 
 //Init Middleware
-app.use(express.json({extended:false}));
+app.use(express.json({extended:false})); //based on body-parser
 
 app.get('/', (req, res) => res.send('API Running')); // response sent back to the client by express backend
 
